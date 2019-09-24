@@ -1,0 +1,8 @@
+---
+version: '2.4'
+services:
+  cmake:
+    build: ./dockerfile
+    working_dir: /src
+    command:
+      - bash
